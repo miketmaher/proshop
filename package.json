@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "MERN course project",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "npm run dev",
     "server": "nodemon backend/server",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/miketmaher/proshop#readme",
   "dependencies": {
+    "dotenv": "^16.0.1",
     "express": "^4.18.1"
   },
   "devDependencies": {
