@@ -1,0 +1,23 @@
+{
+  "name": "proshop",
+  "version": "1.0.0",
+  "description": "MERN course project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miketmaher/proshop.git"
+  },
+  "author": "Mike Maher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miketmaher/proshop/issues"
+  },
+  "homepage": "https://github.com/miketmaher/proshop#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
