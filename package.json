@@ -4,7 +4,10 @@
   "description": "MERN course project",
   "main": "server.js",
   "scripts": {
-    "start": "node backend/server",
+    "start": "npm run dev",
+    "server": "nodemon backend/server",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +22,9 @@
   "homepage": "https://github.com/miketmaher/proshop#readme",
   "dependencies": {
     "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "concurrently": "^7.2.1",
+    "nodemon": "^2.0.16"
   }
 }
